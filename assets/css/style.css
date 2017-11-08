@@ -1,0 +1,9 @@
+body {
+	font-family: 'Work Sans', sans-serif;
+	background-image:url('https://s3.us-east-2.amazonaws.com/jacqueportfolio/patrick-fore-381200.jpg');
+	color: snow;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}

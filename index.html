@@ -4,37 +4,36 @@
 <head>
     <title>Guessing Game</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
 </head>
 
 <body>
-<div class="main-container">
-
-<div class="header">
-    <h2>The Guessing Game</h2>
-    <h4>Guess the correct random letter. You have 10 guesses.</h4>
-    <h5>Press any letter key to start.</h5>
-</div>
-
-<div class="row">
-
-  <p>Wins: <span id="wins">0</span></p>
-
-  <p>Losses: <span id="losses">0</span></p>
-
-  <p>Guesses Left: <span id="guesses-left"></span></p>
-
-  <p>Your Guesses so far: <span id="guesses-so-far"></span></p>    
-</div>
-
-
-</div>
-<script type="text/javascript" src="assets/js/scripts.js"></script>
-<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <div class="container">
+        <div class="container">
+            <div class="row justify-content-sm-center">
+                <div class="header">
+                    <h1>Guessing Game</h1>
+                    <h3>Guess the correct letter. You have 10 guesses.</h3>
+                    <h3>Press any letter key to start.</h3>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <div class="col col-sm-5">
+                    <h3>Wins: <span id="wins">0</span></h3>
+                    <h3>Losses: <span id="losses">0</span></h3>
+                </div>
+                <div class="col col-sm-5">
+                    <h3>Guesses Left: <span id="guesses-left"></span></h3>
+                    <h3>Your Guesses so far: <span id="guesses-so-far"></span></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
 </html>
