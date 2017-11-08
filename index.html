@@ -1,27 +1,40 @@
 <!doctype html>
 <html>
-<head>
-<title>Try to Beat the Computer!!!!!!</title>
 
+<head>
+    <title>Guessing Game</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 </head>
+
 <body>
-<h2>Can you beat the Computer?</h2>
-<h4>Guess what number it will choose. You have 3 chances.</h4>
-<form>
-Guess a number between 1 and 10:
-<input id="guess" type="text" size="8" /><br />
-<input type="button" value="guess" onclick="checkNumber()" /><br />
-</form>
-<p id="Wins"></p><br/>
-<p id="Loses"></p><br/>
-<p id="numberOfGs"></p><br/>
-<p id="guessLeft"></p>
-<p id="secretNum"></p>
+<div class="main-container">
+
+<div class="header">
+    <h2>The Guessing Game</h2>
+    <h4>Guess the correct random letter. You have 10 guesses.</h4>
+    <h5>Press any letter key to start.</h5>
+</div>
+
+<div class="row">
+
+  <p>Wins: <span id="wins">0</span></p>
+
+  <p>Losses: <span id="losses">0</span></p>
+
+  <p>Guesses Left: <span id="guesses-left"></span></p>
+
+  <p>Your Guesses so far: <span id="guesses-so-far"></span></p>    
+</div>
 
 
-
-<script type="text/javascript" src = "javascript.js"></script>
-
+</div>
+<script type="text/javascript" src="assets/js/scripts.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
+
 </html>
